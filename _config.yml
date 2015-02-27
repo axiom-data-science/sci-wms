@@ -10,3 +10,4 @@ include: ["_static"]
 exclude: ["sphinx", "README.md", "Gemfile*", ".gitignore"]
 markdown: rdiscount
 permalink: pretty
+baseurl: /sci-wms
