@@ -1,0 +1,30 @@
+.wrapper {
+    width: 860px;
+    margin: 0 auto;
+}
+
+body {
+    padding: 50px;
+}
+
+header {
+    width: 240px;
+    float: left;
+    position: fixed;
+    margin-right: 40px;
+}
+
+section {
+    width: 580px;
+    float: right;
+    padding-top: 175px;
+}
+
+header>.nav-pills>li>a {
+    color: #000;
+}
+
+header>.nav-pills>li.active>a, header>.nav-pills>li.active>a:hover, header>.nav-pills>li.active>a:focus {
+    background-color: #fdd017;
+    color: #000;
+}
